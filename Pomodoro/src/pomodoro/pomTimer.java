@@ -21,7 +21,7 @@ import sun.audio.*;
  * @author mcz
  */
 public class pomTimer extends javax.swing.JFrame {
-     int min=1,sec=0;
+     int min=25,sec=0;
      Timer timer;
      int mod=0;
      int pnum=0;
@@ -254,7 +254,7 @@ public class pomTimer extends javax.swing.JFrame {
                         }
                         else{
                             playSoundb();
-                            min=2;
+                            min=5;
                             sec=0;
                         
                         }
